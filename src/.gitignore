@@ -3,7 +3,7 @@
 /vcs.xml
 /modules.xml
 /misc.xml
-.idea/
+.idea/*
 .DS_Store
 .env
 # Compiled class file
