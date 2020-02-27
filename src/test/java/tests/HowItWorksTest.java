@@ -12,7 +12,7 @@ public class HowItWorksTest extends BaseTest {
     HomePage homePage = new HomePage(driver);
     HowItWorksPage page = new HowItWorksPage(driver);
 
-    @BeforeMethod
+    @BeforeTest
     public void howItWorksPage(){
         homePage.openHomePage()
                 .goToHowItWorks();
